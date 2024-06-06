@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C08E23D2913E6FF00DDED24 /* PersonajeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C08E23C2913E6FF00DDED24 /* PersonajeDetailView.swift */; };
+		3C08E246291510BC00DDED24 /* LugaresDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C08E245291510BC00DDED24 /* LugaresDetailView.swift */; };
+		3C08E256291556C300DDED24 /* Blason.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C08E255291556C300DDED24 /* Blason.swift */; };
+		3C08E258291579E700DDED24 /* TituloCasa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C08E257291579E700DDED24 /* TituloCasa.swift */; };
+		3C08E25A2915800400DDED24 /* Personaje.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C08E2592915800400DDED24 /* Personaje.swift */; };
+		3C08E2622918429300DDED24 /* Familia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C08E2612918429300DDED24 /* Familia.swift */; };
+		3C08E264291932E200DDED24 /* Lugar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C08E263291932E200DDED24 /* Lugar.swift */; };
+		3C08E266291A633400DDED24 /* Region.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C08E265291A633400DDED24 /* Region.swift */; };
+		3C08E268291A764A00DDED24 /* FamiliaDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C08E267291A764900DDED24 /* FamiliaDetailView.swift */; };
+		3CDCD99E290BE68600AE495F /* WikiGotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDCD99D290BE68600AE495F /* WikiGotApp.swift */; };
+		3CDCD9A0290BE68600AE495F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDCD99F290BE68600AE495F /* ContentView.swift */; };
+		3CDCD9A5290BE68800AE495F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CDCD9A4290BE68800AE495F /* Preview Assets.xcassets */; };
+		3CDCD9B4290C09A400AE495F /* FamiliasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDCD9B3290C09A400AE495F /* FamiliasView.swift */; };
+		3CDCD9B6290C09C100AE495F /* PersonajesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDCD9B5290C09C100AE495F /* PersonajesView.swift */; };
+		3CDCD9B8290C09D600AE495F /* LugaresView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDCD9B7290C09D600AE495F /* LugaresView.swift */; };
+		3CDCD9C6291298FD00AE495F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CDCD9C5291298FD00AE495F /* Assets.xcassets */; };
+		3CE92ACA291AC30800B4A7A2 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE92AC9291AC30800B4A7A2 /* SplashView.swift */; };
+		3CE92ACC291BB44B00B4A7A2 /* Temporada.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE92ACB291BB44B00B4A7A2 /* Temporada.swift */; };
+		3CE92ACE291BB7E500B4A7A2 /* TemporadaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE92ACD291BB7E500B4A7A2 /* TemporadaView.swift */; };
+		3CE92AD0291BBBCE00B4A7A2 /* TemporadaDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE92ACF291BBBCE00B4A7A2 /* TemporadaDetailView.swift */; };
+		3CE92AD2291D03D900B4A7A2 /* Episodio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE92AD1291D03D900B4A7A2 /* Episodio.swift */; };
+		3CE92AD4291D059A00B4A7A2 /* EpisodioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE92AD3291D059A00B4A7A2 /* EpisodioView.swift */; };
+		3CE92AD6291D05C000B4A7A2 /* EpisodioDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE92AD5291D05C000B4A7A2 /* EpisodioDetailView.swift */; };
+		3CF2A91D291E8C5A0062CB21 /* FamiliaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF2A91C291E8C5A0062CB21 /* FamiliaViewModel.swift */; };
+		3CF2A921291ED0750062CB21 /* PersonajeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF2A920291ED0750062CB21 /* PersonajeViewModel.swift */; };
+		3CF2A929291FA9DC0062CB21 /* LugaresViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF2A928291FA9DC0062CB21 /* LugaresViewModel.swift */; };
+		3CF2A92B291FABDD0062CB21 /* TemporadaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF2A92A291FABDD0062CB21 /* TemporadaViewModel.swift */; };
+		3CF2A92D291FACDD0062CB21 /* EpisodioViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF2A92C291FACDD0062CB21 /* EpisodioViewModel.swift */; };
+		3CF2A933292243D90062CB21 /* Favorito.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF2A932292243D90062CB21 /* Favorito.swift */; };
+		3CF2A9372923A9590062CB21 /* TipoClaseEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF2A9362923A9590062CB21 /* TipoClaseEnum.swift */; };
+		3CF2A93A2923B3910062CB21 /* FavoritoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF2A9392923B3910062CB21 /* FavoritoViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3C08E23C2913E6FF00DDED24 /* PersonajeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonajeDetailView.swift; sourceTree = "<group>"; };
+		3C08E245291510BC00DDED24 /* LugaresDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LugaresDetailView.swift; sourceTree = "<group>"; };
+		3C08E255291556C300DDED24 /* Blason.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blason.swift; sourceTree = "<group>"; };
+		3C08E257291579E700DDED24 /* TituloCasa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TituloCasa.swift; sourceTree = "<group>"; };
+		3C08E2592915800400DDED24 /* Personaje.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Personaje.swift; sourceTree = "<group>"; };
+		3C08E2612918429300DDED24 /* Familia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Familia.swift; sourceTree = "<group>"; };
+		3C08E263291932E200DDED24 /* Lugar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lugar.swift; sourceTree = "<group>"; };
+		3C08E265291A633400DDED24 /* Region.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Region.swift; sourceTree = "<group>"; };
+		3C08E267291A764900DDED24 /* FamiliaDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamiliaDetailView.swift; sourceTree = "<group>"; };
+		3CDCD99A290BE68600AE495F /* WikiGot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WikiGot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CDCD99D290BE68600AE495F /* WikiGotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiGotApp.swift; sourceTree = "<group>"; };
+		3CDCD99F290BE68600AE495F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3CDCD9A4290BE68800AE495F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3CDCD9B3290C09A400AE495F /* FamiliasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamiliasView.swift; sourceTree = "<group>"; };
+		3CDCD9B5290C09C100AE495F /* PersonajesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonajesView.swift; sourceTree = "<group>"; };
+		3CDCD9B7290C09D600AE495F /* LugaresView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LugaresView.swift; sourceTree = "<group>"; };
+		3CDCD9C5291298FD00AE495F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CE92AC9291AC30800B4A7A2 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		3CE92ACB291BB44B00B4A7A2 /* Temporada.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temporada.swift; sourceTree = "<group>"; };
+		3CE92ACD291BB7E500B4A7A2 /* TemporadaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemporadaView.swift; sourceTree = "<group>"; };
+		3CE92ACF291BBBCE00B4A7A2 /* TemporadaDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemporadaDetailView.swift; sourceTree = "<group>"; };
+		3CE92AD1291D03D900B4A7A2 /* Episodio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Episodio.swift; sourceTree = "<group>"; };
+		3CE92AD3291D059A00B4A7A2 /* EpisodioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodioView.swift; sourceTree = "<group>"; };
+		3CE92AD5291D05C000B4A7A2 /* EpisodioDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodioDetailView.swift; sourceTree = "<group>"; };
+		3CF2A91C291E8C5A0062CB21 /* FamiliaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamiliaViewModel.swift; sourceTree = "<group>"; };
+		3CF2A920291ED0750062CB21 /* PersonajeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonajeViewModel.swift; sourceTree = "<group>"; };
+		3CF2A928291FA9DC0062CB21 /* LugaresViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LugaresViewModel.swift; sourceTree = "<group>"; };
+		3CF2A92A291FABDD0062CB21 /* TemporadaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemporadaViewModel.swift; sourceTree = "<group>"; };
+		3CF2A92C291FACDD0062CB21 /* EpisodioViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodioViewModel.swift; sourceTree = "<group>"; };
+		3CF2A932292243D90062CB21 /* Favorito.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorito.swift; sourceTree = "<group>"; };
+		3CF2A9362923A9590062CB21 /* TipoClaseEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipoClaseEnum.swift; sourceTree = "<group>"; };
+		3CF2A9392923B3910062CB21 /* FavoritoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritoViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CDCD997290BE68600AE495F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CDCD991290BE68600AE495F = {
+			isa = PBXGroup;
+			children = (
+				3CF2A91B291E8C120062CB21 /* ViewModel */,
+				3CDCD9AC290BF61A00AE495F /* Model */,
+				3CDCD9AB290BF60E00AE495F /* Views */,
+				3CDCD99C290BE68600AE495F /* WikiGot */,
+				3CDCD99B290BE68600AE495F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CDCD99B290BE68600AE495F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CDCD99A290BE68600AE495F /* WikiGot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CDCD99C290BE68600AE495F /* WikiGot */ = {
+			isa = PBXGroup;
+			children = (
+				3CDCD99D290BE68600AE495F /* WikiGotApp.swift */,
+				3CDCD99F290BE68600AE495F /* ContentView.swift */,
+				3CE92AC9291AC30800B4A7A2 /* SplashView.swift */,
+				3CDCD9C5291298FD00AE495F /* Assets.xcassets */,
+				3CDCD9A3290BE68800AE495F /* Preview Content */,
+			);
+			path = WikiGot;
+			sourceTree = "<group>";
+		};
+		3CDCD9A3290BE68800AE495F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3CDCD9A4290BE68800AE495F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3CDCD9AB290BF60E00AE495F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3CDCD9B3290C09A400AE495F /* FamiliasView.swift */,
+				3C08E267291A764900DDED24 /* FamiliaDetailView.swift */,
+				3CDCD9B5290C09C100AE495F /* PersonajesView.swift */,
+				3C08E23C2913E6FF00DDED24 /* PersonajeDetailView.swift */,
+				3CDCD9B7290C09D600AE495F /* LugaresView.swift */,
+				3C08E245291510BC00DDED24 /* LugaresDetailView.swift */,
+				3CE92ACD291BB7E500B4A7A2 /* TemporadaView.swift */,
+				3CE92ACF291BBBCE00B4A7A2 /* TemporadaDetailView.swift */,
+				3CE92AD3291D059A00B4A7A2 /* EpisodioView.swift */,
+				3CE92AD5291D05C000B4A7A2 /* EpisodioDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3CDCD9AC290BF61A00AE495F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3C08E255291556C300DDED24 /* Blason.swift */,
+				3C08E257291579E700DDED24 /* TituloCasa.swift */,
+				3C08E2592915800400DDED24 /* Personaje.swift */,
+				3C08E2612918429300DDED24 /* Familia.swift */,
+				3C08E263291932E200DDED24 /* Lugar.swift */,
+				3C08E265291A633400DDED24 /* Region.swift */,
+				3CE92ACB291BB44B00B4A7A2 /* Temporada.swift */,
+				3CE92AD1291D03D900B4A7A2 /* Episodio.swift */,
+				3CF2A932292243D90062CB21 /* Favorito.swift */,
+				3CF2A9382923AA110062CB21 /* Enum */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3CF2A91B291E8C120062CB21 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3CF2A91C291E8C5A0062CB21 /* FamiliaViewModel.swift */,
+				3CF2A920291ED0750062CB21 /* PersonajeViewModel.swift */,
+				3CF2A928291FA9DC0062CB21 /* LugaresViewModel.swift */,
+				3CF2A92A291FABDD0062CB21 /* TemporadaViewModel.swift */,
+				3CF2A92C291FACDD0062CB21 /* EpisodioViewModel.swift */,
+				3CF2A9392923B3910062CB21 /* FavoritoViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3CF2A9382923AA110062CB21 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				3CF2A9362923A9590062CB21 /* TipoClaseEnum.swift */,
+			);
+			name = Enum;
+			path = "Enumç";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CDCD999290BE68600AE495F /* WikiGot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CDCD9A8290BE68800AE495F /* Build configuration list for PBXNativeTarget "WikiGot" */;
+			buildPhases = (
+				3CDCD996290BE68600AE495F /* Sources */,
+				3CDCD997290BE68600AE495F /* Frameworks */,
+				3CDCD998290BE68600AE495F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WikiGot;
+			productName = WikiGot;
+			productReference = 3CDCD99A290BE68600AE495F /* WikiGot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CDCD992290BE68600AE495F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					3CDCD999290BE68600AE495F = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 3CDCD995290BE68600AE495F /* Build configuration list for PBXProject "WikiGot" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CDCD991290BE68600AE495F;
+			productRefGroup = 3CDCD99B290BE68600AE495F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CDCD999290BE68600AE495F /* WikiGot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CDCD998290BE68600AE495F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CDCD9C6291298FD00AE495F /* Assets.xcassets in Resources */,
+				3CDCD9A5290BE68800AE495F /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CDCD996290BE68600AE495F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C08E258291579E700DDED24 /* TituloCasa.swift in Sources */,
+				3CF2A91D291E8C5A0062CB21 /* FamiliaViewModel.swift in Sources */,
+				3CDCD9A0290BE68600AE495F /* ContentView.swift in Sources */,
+				3CE92ACE291BB7E500B4A7A2 /* TemporadaView.swift in Sources */,
+				3C08E264291932E200DDED24 /* Lugar.swift in Sources */,
+				3CF2A9372923A9590062CB21 /* TipoClaseEnum.swift in Sources */,
+				3CDCD9B4290C09A400AE495F /* FamiliasView.swift in Sources */,
+				3C08E25A2915800400DDED24 /* Personaje.swift in Sources */,
+				3CF2A92B291FABDD0062CB21 /* TemporadaViewModel.swift in Sources */,
+				3CDCD9B8290C09D600AE495F /* LugaresView.swift in Sources */,
+				3C08E256291556C300DDED24 /* Blason.swift in Sources */,
+				3CE92AD4291D059A00B4A7A2 /* EpisodioView.swift in Sources */,
+				3C08E23D2913E6FF00DDED24 /* PersonajeDetailView.swift in Sources */,
+				3CE92AD0291BBBCE00B4A7A2 /* TemporadaDetailView.swift in Sources */,
+				3CE92ACA291AC30800B4A7A2 /* SplashView.swift in Sources */,
+				3CF2A921291ED0750062CB21 /* PersonajeViewModel.swift in Sources */,
+				3CF2A929291FA9DC0062CB21 /* LugaresViewModel.swift in Sources */,
+				3CDCD9B6290C09C100AE495F /* PersonajesView.swift in Sources */,
+				3C08E246291510BC00DDED24 /* LugaresDetailView.swift in Sources */,
+				3CF2A933292243D90062CB21 /* Favorito.swift in Sources */,
+				3CE92AD2291D03D900B4A7A2 /* Episodio.swift in Sources */,
+				3CE92ACC291BB44B00B4A7A2 /* Temporada.swift in Sources */,
+				3C08E266291A633400DDED24 /* Region.swift in Sources */,
+				3CF2A93A2923B3910062CB21 /* FavoritoViewModel.swift in Sources */,
+				3CE92AD6291D05C000B4A7A2 /* EpisodioDetailView.swift in Sources */,
+				3CDCD99E290BE68600AE495F /* WikiGotApp.swift in Sources */,
+				3C08E268291A764A00DDED24 /* FamiliaDetailView.swift in Sources */,
+				3CF2A92D291FACDD0062CB21 /* EpisodioViewModel.swift in Sources */,
+				3C08E2622918429300DDED24 /* Familia.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3CDCD9A6290BE68800AE495F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3CDCD9A7290BE68800AE495F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CDCD9A9290BE68800AE495F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WikiGot/Preview Content\"";
+				DEVELOPMENT_TEAM = K62327QFK2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = SplashView;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yeray.WikiGot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3CDCD9AA290BE68800AE495F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WikiGot/Preview Content\"";
+				DEVELOPMENT_TEAM = K62327QFK2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = SplashView;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yeray.WikiGot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CDCD995290BE68600AE495F /* Build configuration list for PBXProject "WikiGot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CDCD9A6290BE68800AE495F /* Debug */,
+				3CDCD9A7290BE68800AE495F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CDCD9A8290BE68800AE495F /* Build configuration list for PBXNativeTarget "WikiGot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CDCD9A9290BE68800AE495F /* Debug */,
+				3CDCD9AA290BE68800AE495F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CDCD992290BE68600AE495F /* Project object */;
+}
